@@ -1,0 +1,24 @@
+{
+  "name": "dist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github..github.io/deepanshu24419/modern_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy":"gh-pages index.html " 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepanshu24419/modern_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepanshu24419/modern_portfolio/issues"
+  },
+  
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
